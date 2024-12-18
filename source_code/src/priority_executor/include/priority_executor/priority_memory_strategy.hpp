@@ -197,7 +197,7 @@ public:
         {
             if (p1->priority != p2->priority)
             {
-                return p1->priority > p2->priority;
+                return p1->priority < p2->priority;
             }
             // return p1->counter > p2->counter;
             return 0;
